@@ -8,6 +8,27 @@
   <body>
     <div class="container">
       <h1>Contact Us</h1>
+      <!-- image check list  -->
+    <div class="img-container">
+    <div class="img-wrapper" onclick="toggleCheck(this)">
+      <img src="/zz.jpg" alt="Image 1">
+      <div class="checkmark">✔</div>
+      <p>zeamanuel CEO</p>
+    </div>
+
+    <div class="img-wrapper" onclick="toggleCheck(this)">
+      <img src="/mm.jpg" alt="Image 2">
+      <div class="checkmark">✔</div>
+      <p>Mahder COO</p>
+    </div>
+
+    <div class="img-wrapper" onclick="toggleCheck(this)">
+      <img src="/bbb.jpg" alt="Image 3">
+      <div class="checkmark">✔</div>
+      <p>Biniyam CTO</p>
+    </div>
+  </div>
+  <!-- form contact-form -->    
       <form id="contactForm">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
